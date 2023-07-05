@@ -6,7 +6,7 @@ local lsp = require('lsp-zero').preset({
 
 lsp.ensure_installed({
 	'tsserver',
-	'eslint',
+	--'eslint',
 	'lua_ls',
 })
 
