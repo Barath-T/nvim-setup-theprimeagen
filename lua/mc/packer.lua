@@ -28,6 +28,8 @@ return require('packer').startup(function(use)
 
     --auto braces
     use('rstacruz/vim-closer')
+    --comments
+    use('numToStr/Comment.nvim') -- "gc" to comment visual regions/lines
 
     --auto jsx/tsx
     --use('neoclide/coc.nvim')
