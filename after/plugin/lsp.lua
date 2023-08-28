@@ -8,6 +8,7 @@ lsp.ensure_installed({
 	'tsserver',
 	'eslint',
 	'lua_ls',
+  'rust_analyzer',
 })
 
 require'lspconfig'.lua_ls.setup {
