@@ -30,8 +30,13 @@ vim.opt.updatetime = 50
 
 vim.g.mapleader = " "
 
--- vim.highlight.Normal.guibg = "none"
--- vim.highlight.NonText.guibg = "none"
--- vim.highlight.Normal.ctermbg = "none"
--- vim.highlight.NonText.ctermbg = "none"
+function azhagaku()
+  vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
+  vim.cmd("hi NonText guibg=NONE ctermbg=NONE")
+end
+azhagaku()
 
+-- vim.highlight.Normal.guibg = "NONE"
+-- vim.highlight.NonText.guibg = "NONE"
+-- vim.highlight.Normal.ctermbg = "NONE"
+-- vim.highlight.NonText.ctermbg = "NONE"

@@ -1,2 +1,2 @@
-require("mc.remap")
 require("mc.set")
+require("mc.remap")
